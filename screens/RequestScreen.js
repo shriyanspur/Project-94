@@ -60,6 +60,7 @@ export default class DonateScreen extends React.Component {
   render() {
     return (
       <View>
+        <AppHeader title = 'Blood Share' navigation = {this.props.navigation}/>
         <View>
           {
             this.state.reqBookList.length === 0
